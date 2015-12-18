@@ -30,7 +30,7 @@ class FlaskSearch(object):
 
     def init_app(self, app, models):
         app.config.setdefault('ELASTICSEARCH_URL', {"host": "localhost", "port": 9200})
-        app.config.setdefault('ELASTICSEARCH_INDEX', 'FlaskSearch')
+        app.config.setdefault('ELASTICSEARCH_INDEX', 'flasksearch')
         if not hasattr(app, 'extensions'):
             app.extensions = {}
         app.extensions['flasksearch'] = self

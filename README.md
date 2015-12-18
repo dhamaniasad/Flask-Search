@@ -7,14 +7,14 @@ pip install FlaskSearch
 ```
 
 ## Quickstart
-*A full-fledged example app along with filler data is also available in the `example` directory.*
+*A full-fledged example app is also available in the [microblog](https://github.com/dhamaniasad/microblog) repository.*
 
 To get up and running with Flask-Search, here's what you need to do. 
 ### Intitialize extension and setup Models
 
 ```python
 from flask.ext.search import FlaskSearch, FlaskSearchQueryMixin
-app.config['ELASTICSEARCH_INDEX'] = "MyFlaskApp" # Defaults to FlaskSearch
+app.config['ELASTICSEARCH_INDEX'] = "myflaskapp" # Defaults to flasksearch, needs to be lowercase
 app.config['ELASTICSEARCH_URL'] = {"host": "localhost", "port": 9200}) # Defaults to {"host": "localhost", "port": 9200}
 
 class Post(db.Model):
