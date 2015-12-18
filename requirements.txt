@@ -1,0 +1,4 @@
+Flask==0.10.1
+Flask-SQLAlchemy
+blinker
+elasticsearch>=2.0.0,<3.0.0
