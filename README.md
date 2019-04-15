@@ -1,3 +1,7 @@
+## ⚠️ Note ⚠️
+**This project is unmaintained. Please use https://github.com/honmaple/flask-msearch instead.**
+
+
 # Flask-Search
 Flask-Search is a Flask extension that adds powerful search capability(powered by Elasticsearch) to Flask-SQLAlchemy models.
 
